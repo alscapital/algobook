@@ -31,13 +31,16 @@ void MarketReader::tickPrice(TickerId tickerId, TickType field,
 }
 
 // Called in response to reqMktData
-void MarketReader::tickSize(TickerId tickerId, TickType field, int size) {
-  std::cout << "tickSize - field: " << field << ", size: " << size << std::endl;
+void MarketReader::tickSize(TickerId tickerId, TickType field, Decimal size) 
+{
+  //std::cout << "tickSize - field: " << field << ", size: " << size << std::endl;
+
+   printf( "Tick Size. Ticker Id: %ld, Field: %d, Size: %s\n", tickerId, (int)field, decimalStringToDisplay(size).c_str());
 }
 
 // Called in response to reqRealTimeBars
-void MarketReader::realtimeBar(TickerId reqId, long time, double open,
-  double high, double low, double close, long volume, double wap, int count) {
+void MarketReader::realtimeBar(TickerId reqId, long time, double open, double high, double low, double close, Decimal volume, Decimal wap, int count) 
+{
   std::cout << "realtimeBar - Opening price: " << open << std::endl;
 }
 
@@ -51,6 +54,7 @@ void MarketReader::fundamentalData(TickerId reqId, const std::string& data) {
   std::cout << "Fundamental data: " << data << std::endl;
 }
 
-void MarketReader::error(int id, int code, const std::string& msg) {
-  std::cout << "Error: " << code << ": " << msg << std::endl;
+void MarketReader::error(int id, int errorCode, const std::string& errorMsg, const std::string& advancedOrderRejectJson) 
+{
+  std::cout << "Error: " << errorCode << ": " << errorMsg << std::endl;
 }

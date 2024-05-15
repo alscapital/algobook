@@ -28,7 +28,7 @@ public:
   // Event handling functions
   void tickPrice(TickerId tickerId, TickType field, double price, const TickAttrib& attrib);
   
-  void tickSize(TickerId tickerId, TickType field, Decimal size) {};
+  void tickSize(TickerId tickerId, TickType field, Decimal size);
   //void tickSize(TickerId tickerId, TickType field, int size);
   
   void tickOptionComputation( TickerId tickerId, TickType tickType, int tickAttrib, double impliedVol, double delta, double optPrice, double pvDividend, double gamma, double vega, double theta, double undPrice) {};
@@ -40,7 +40,7 @@ public:
   void tickEFP(TickerId tickerId, TickType tickType, double basisPoints, const std::string& formattedBasisPoints,
     double totalDividends, int holdDays, const std::string& futureLastTradeDate, double dividendImpact, double dividendsToLastTradeDate) {};
   
-  void orderStatus(OrderId orderId, const std::string& status, Decimal filled,  Decimal remaining, double avgFillPrice, int permId, int parentId, double lastFillPrice, int clientId, const std::string& whyHeld, double mktCapPrice);
+  void orderStatus(OrderId orderId, const std::string& status, Decimal filled,  Decimal remaining, double avgFillPrice, int permId, int parentId, double lastFillPrice, int clientId, const std::string& whyHeld, double mktCapPrice){};
   //void orderStatus(OrderId orderId, const std::string& status, double filled,
   //  double remaining, double avgFillPrice, int permId, int parentId,
   //  double lastFillPrice, int clientId, const std::string& whyHeld, double mktCapPrice) {};
@@ -88,7 +88,7 @@ public:
     const std::string& legsStr) {};
   void scannerDataEnd(int reqId) {};
   
-  void realtimeBar(TickerId reqId, long time, double open, double high, double low, double close, Decimal volume, Decimal wap, int count) {};
+  void realtimeBar(TickerId reqId, long time, double open, double high, double low, double close, Decimal volume, Decimal wap, int count);
   //void realtimeBar(TickerId reqId, long time, double open, double high, double low, double close,
   //  long volume, double wap, int count);
   
@@ -98,7 +98,7 @@ public:
   void marketDataType(TickerId reqId, int marketDataType) {};
   void commissionReport(const CommissionReport& commissionReport) {};
   
-  void position(const std::string& account, const Contract& contract, Decimal position, double avgCost);
+  void position(const std::string& account, const Contract& contract, Decimal position, double avgCost){};
   //void position(const std::string& account, const Contract& contract, double position, double avgCost) {};
   
   void positionEnd() {};
