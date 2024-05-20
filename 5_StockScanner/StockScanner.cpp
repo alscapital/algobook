@@ -35,3 +35,10 @@ void StockScanner::scannerDataEnd(int reqId) {
 void StockScanner::error(int id, int errorCode, const std::string& errorMsg, const std::string& advancedOrderRejectJson) {
   std::cout << "Error: " << errorCode << ": " << errorMsg << std::endl;
 }
+
+
+void StockScanner::scannerParameters(const std::string& xml)
+{
+  printf( "ScannerParameters. %s\n", xml.c_str());
+}
+

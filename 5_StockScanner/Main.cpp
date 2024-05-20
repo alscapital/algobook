@@ -7,6 +7,11 @@ int main() {
   // Connect to TWS or IB Gateway
   StockScanner client("127.0.0.1", 7497, 0);
 
+
+  // Request parameters of the scanner
+  //client.reqScannerParameters();
+
+
   // Create scanner subscription
   ScannerSubscription ss;
   ss.instrument = "STK";
