@@ -9,9 +9,9 @@ int main() {
 
   // Define the contract
   Contract con = Contract();
-  con.symbol = "IBM";
-  con.secType = "STK";
-  con.currency = "USD";
+  con.symbol = "AF";
+  con.secType = "CFD";
+  con.currency = "EUR";
   con.exchange = "SMART";
 
   // Access contract details
@@ -35,7 +35,7 @@ int main() {
   mainOrder.orderId = client.orderId;
   mainOrder.action = "BUY";
   mainOrder.orderType = "MKT";
-  mainOrder.totalQuantity = 100;
+  mainOrder.totalQuantity = stringToDecimal("1");
   mainOrder.transmit = false;
   mainOrder.conditions.push_back(condition);
 
@@ -49,8 +49,8 @@ int main() {
   firstChild.orderId = client.orderId + 1;
   firstChild.action = "SELL";
   firstChild.orderType = "LMT";
-  firstChild.totalQuantity = 100;
-  firstChild.lmtPrice = 170;
+  firstChild.totalQuantity = stringToDecimal("1");
+  firstChild.lmtPrice = 9;
   firstChild.parentId = client.orderId;
   firstChild.transmit = false;
 
@@ -58,8 +58,8 @@ int main() {
   secondChild.orderId = client.orderId + 2;
   secondChild.action = "SELL";
   secondChild.orderType = "STP";
-  secondChild.totalQuantity = 100;
-  secondChild.auxPrice = 120;
+  secondChild.totalQuantity = stringToDecimal("1");
+  secondChild.auxPrice = 7;
   secondChild.parentId = client.orderId;
   secondChild.transmit = false;
 
