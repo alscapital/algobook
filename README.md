@@ -4,3 +4,4 @@ Algobook
 02_Ch07_ContractReader
 03_Ch07_SubmitOrder
 04_Ch08_MarketReader
+05_Ch09_StockScanner
