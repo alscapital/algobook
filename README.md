@@ -7,3 +7,4 @@ Algobook
 05_Ch09_StockScanner
 06_Ch10_AdvOrder
 07_Ch11_AccDist
+08_Ch11_AverageTrueRange
