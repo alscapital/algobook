@@ -8,3 +8,4 @@ Algobook
 06_Ch10_AdvOrder
 07_Ch11_AccDist
 08_Ch11_AverageTrueRange
+09_Ch11_Bollinger
