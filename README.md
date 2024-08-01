@@ -9,3 +9,4 @@ Algobook
 07_Ch11_AccDist
 08_Ch11_AverageTrueRange
 09_Ch11_Bollinger
+10_Ch11_Macd
