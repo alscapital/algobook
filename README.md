@@ -11,3 +11,4 @@ Algobook
 09_Ch11_Bollinger
 10_Ch11_Macd
 11_Ch11_MovingAverage
+12_Ch11_OnBalanceVolume
