@@ -12,3 +12,4 @@ Algobook
 10_Ch11_Macd
 11_Ch11_MovingAverage
 12_Ch11_OnBalanceVolume
+13_Ch11_RelativeStrength
