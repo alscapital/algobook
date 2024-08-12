@@ -16,3 +16,4 @@ Algobook
 14_Ch11_TrueStrength
 15_Ch12_BestNeutral
 16_Ch12_BestSpread
+17_Ch12_ChainReader
