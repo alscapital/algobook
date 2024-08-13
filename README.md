@@ -17,3 +17,4 @@ Algobook
 15_Ch12_BestNeutral
 16_Ch12_BestSpread
 17_Ch12_ChainReader
+18_Ch13_BollingerMFI
