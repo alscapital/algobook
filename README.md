@@ -18,3 +18,4 @@ Algobook
 16_Ch12_BestSpread
 17_Ch12_ChainReader
 18_Ch13_BollingerMFI
+19_Ch13_ReadFutures
