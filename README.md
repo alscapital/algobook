@@ -19,3 +19,4 @@ Algobook
 17_Ch12_ChainReader
 18_Ch13_BollingerMFI
 19_Ch13_ReadFutures
+20_Ch13_TurtleTrading
