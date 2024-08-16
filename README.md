@@ -20,3 +20,4 @@ Algobook
 18_Ch13_BollingerMFI
 19_Ch13_ReadFutures
 20_Ch13_TurtleTrading
+21_Ch14_SimpleAlgo
