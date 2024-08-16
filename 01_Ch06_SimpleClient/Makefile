@@ -7,7 +7,6 @@ CC=g++
 CFLAGS=-std=c++11 -Wno-return-type
 
 #users links
-TWS_DIR=/home/user/dev
 LIB_DIR=/usr/lib/libdecimal
 
 # Directory containing source files

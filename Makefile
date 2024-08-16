@@ -1,1 +1,1 @@
-TWS_DIR=/home/your_name_here/twsapi
+TWS_DIR=/home/alexmoore/dev
