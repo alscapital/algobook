@@ -1,6 +1,7 @@
-Algobook
+<h1 align="center">Algobook</h1>
 
-01_Ch06_SimpleClient
+<h3 align="center">01_Ch06_SimpleClient</h3>
+
 02_Ch07_ContractReader
 03_Ch07_SubmitOrder
 04_Ch08_MarketReader
