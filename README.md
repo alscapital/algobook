@@ -2,7 +2,8 @@
 
 <h3 align="center">01_Ch06_SimpleClient</h3>
 
-02_Ch07_ContractReader
+<h3 align="center">02_Ch07_ContractReader</h3>
+
 03_Ch07_SubmitOrder
 04_Ch08_MarketReader
 05_Ch09_StockScanner
