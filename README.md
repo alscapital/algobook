@@ -4,7 +4,8 @@
 
 <h3 align="center">02_Ch07_ContractReader</h3>
 
-03_Ch07_SubmitOrder
+<h3 align="center">03_Ch07_SubmitOrder</h3>
+
 04_Ch08_MarketReader
 05_Ch09_StockScanner
 06_Ch10_AdvOrder
