@@ -6,7 +6,8 @@
 
 <h3 align="center">03_Ch07_SubmitOrder</h3>
 
-04_Ch08_MarketReader
+<h3 align="center">04_Ch08_MarketReader</h3>
+
 05_Ch09_StockScanner
 06_Ch10_AdvOrder
 07_Ch11_AccDist
