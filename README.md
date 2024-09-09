@@ -8,7 +8,8 @@
 
 <h3 align="center">04_Ch08_MarketReader</h3>
 
-05_Ch09_StockScanner
+<h3 align="center">05_Ch09_StockScanner</h3>
+
 06_Ch10_AdvOrder
 07_Ch11_AccDist
 08_Ch11_AverageTrueRange
