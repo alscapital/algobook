@@ -12,7 +12,8 @@
 
 <h3 align="center">06_Ch10_AdvOrder</h3>
 
-07_Ch11_AccDist
+<h3 align="center">07_Ch11_AccDist</h3>
+
 08_Ch11_AverageTrueRange
 09_Ch11_Bollinger
 10_Ch11_Macd
