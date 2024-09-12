@@ -14,7 +14,8 @@
 
 <h3 align="center">07_Ch11_AccDist</h3>
 
-08_Ch11_AverageTrueRange
+<h3 align="center">08_Ch11_AverageTrueRange</h3>
+
 09_Ch11_Bollinger
 10_Ch11_Macd
 11_Ch11_MovingAverage
