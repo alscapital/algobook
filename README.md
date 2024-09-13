@@ -16,7 +16,8 @@
 
 <h3 align="center">08_Ch11_AverageTrueRange</h3>
 
-09_Ch11_Bollinger
+<h3 align="center">09_Ch11_Bollinger</h3>
+
 10_Ch11_Macd
 11_Ch11_MovingAverage
 12_Ch11_OnBalanceVolume
