@@ -18,7 +18,8 @@
 
 <h3 align="center">09_Ch11_Bollinger</h3>
 
-10_Ch11_Macd
+<h3 align="center">10_Ch11_Macd</h3>
+
 11_Ch11_MovingAverage
 12_Ch11_OnBalanceVolume
 13_Ch11_RelativeStrength
